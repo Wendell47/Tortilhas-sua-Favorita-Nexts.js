@@ -14,7 +14,7 @@ export default function Home() {
 
     <main className="flex  flex-col items-center justify-between ">
 
-      <div className='flex  w-full h-screen relative  items-center'>
+      <div className='flex  w-full h-screen relative  items-center bg-primary z-0'>
         <Image
               src={bgBannerHeader}
               alt=''
