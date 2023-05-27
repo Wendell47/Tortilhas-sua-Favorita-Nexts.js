@@ -51,7 +51,21 @@ export default function Carrousel() {
             </div>
         ) 
         )}
-      
+        
+        <div  className="p-3 py-10 bg-primary rounded-3xl transition ">
+           
+            <h3 className="text-bege-300 text-2xl text-center"> Tortilhas <br/> Especiais</h3>
+
+            </div>
+
+        <div  className="p-3 bg-[#FFEBD4] rounded-3xl transition outline outline-0 hover:outline-1 col-auto md:col-span-2 ">
+           
+            <div className="p-5 bg-[#FFF2E0] rounded-2xl ">
+            <h3 className=" font-bold ">{cards.title}</h3>
+            <div className="flex justify-between items-center"><span>R$ {cards.price}</span> <HeartIcon className="w-4 h-4"/></div>
+            </div>
+            </div>
+
      </div> 
     )
   }

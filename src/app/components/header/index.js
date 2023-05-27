@@ -41,7 +41,7 @@ const navigation = [
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <Image
-                className="h-20 w-auto"
+                className="h-14 w-auto  lg:h-20 "
                 src={Logo}
                 alt=""
               />

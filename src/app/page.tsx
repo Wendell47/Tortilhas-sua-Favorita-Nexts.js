@@ -34,8 +34,8 @@ export default function Home() {
               className='w-full absolute z-[-1] bottom-[-1px] left-0 right-0'
      
       />
-     <div className=' container px-4 sm:px-0 grid mx-auto grid-cols-1 md:grid-cols-2 md:px-5 items-center'>
-     <div>
+     <div className=' container px-4 sm:px-0 grid mx-auto grid-cols-1 md:grid-cols-2 gap-10 md:px-5 items-center'>
+     <div className='text-center lg:text-left'>
       <span className=' font-secondary text-secondary text-3xl lg:text-4xl xl:text-6xl'>Deliosa & Saborosa</span>
       <h1 className=' font-bold  text-5xl lg:text-6xl xl:text-8xl text-orange-100 mt-4'>Tortilhas <br/> <span className='text-secondary'>Sua Favorita</span></h1>
       <p className='text-orange-100 mt-4'>peça já sua tortilha, vai ser a melhor comida que 

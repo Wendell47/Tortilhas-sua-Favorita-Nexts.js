@@ -16,11 +16,11 @@ module.exports = {
       colors:{
         primary:'#A70200',
         secondary:'#FFAC05',
-        'bege-300':'#FFEBD4',
-        'bege-200':'#FFF2E0',
-        'bege-300':'#FFF6E9',
-        
-        
+        bege:{
+          300:'#FFEBD4',
+          200:'#FFF2E0',
+          400:'#FFF6E9',
+        },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
